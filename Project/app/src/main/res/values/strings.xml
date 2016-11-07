@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="login">Sign in</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="label">Booking.com</string>
+    <string name="search_flights">Search Flights</string>
+    <string name="search_itineraries">Search Itineraries</string>
+    <string name="departure_date">Enter Departure Date(YYYY-MM-DD)</string>
+    <string name="sort_by_time">Sort by travel time</string>
+    <string name="sort_by_cost">Sort by cost</string>
+    <string name="flight_results">Results</string>
+    <string name="display_search_results">Display Search Results</string>
+    <string name="upload_edit_view_infos">Upload, edit or view infos</string>
+    <string name="select_itinerary">Select an itinerary</string>
+    <string name="book_itinerary">Book itinerary</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="button_id">%1$s</string>
+    <string name="flightsInfo">Flights Infos</string>
+    <string name="remove">Remove</string>
+
+</resources>

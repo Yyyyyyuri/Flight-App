@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group_0778.project" >
+    // allows writing to and read from external storage
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/label"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity android:name=".DisplaySearchedFlightsActivity" />
+        <activity android:name=".DisplaySearchedItinerariesActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ClientMain" />
+        <activity android:name=".editClientInfoActivity" />
+        <activity android:name=".DisplayBookedItineraries" />
+        <activity android:name=".ViewFlightsInfoActivity" />
+        <activity android:name=".editFlightInfoActivity" />
+        <activity android:name=".AdminActivity" >
+        </activity>
+    </application>
+
+</manifest>
